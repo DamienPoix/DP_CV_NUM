@@ -1,5 +1,11 @@
 /* colors EFC69B CCB69B DF9B6D 27476E 56351E */
 
 body{
-  background-color: #27476E;
+  background-color: #DF9B6D;
+}
+.title{
+  font-weight: bolder;
+  color: #27476E;
+  font-size: 3em;
+  font-family: 'MuseoModerno', cursive;
 }
