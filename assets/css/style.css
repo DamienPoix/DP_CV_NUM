@@ -4,9 +4,6 @@ body{
   background-color: #27476E;
   font-family: 'MuseoModerno', cursive;
 }
-ul{
-  display: block;
-}
 .bright{
   background-color: #27476E;
   filter: brightness(1.25);
@@ -24,7 +21,7 @@ ul{
 .brownBorder{
   border-color: #56351E !important;
 }
-.lien{
+.lien,.smallTitle{
   font-weight: bolder;
   color: #DF9B6D;
     font-size: 1.5em;

@@ -7,6 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet" />
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!-- fontawesome (icon) -->
+ <script src="https://kit.fontawesome.com/5f0f3c52b6.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <title>Damien Poix Cv</title>
 </head>
@@ -19,7 +21,7 @@
           <a class="nav-link lien" href="#scroll_XP">Expérience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link lien" href="#scroll_SKILLS">compètences</a>
+          <a class="nav-link lien" href="#scroll_SKILLS">compétences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link lien" href="#scroll_HOBBY">hobby</a>
@@ -29,7 +31,7 @@
         </li>
       </ul>
     </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar_CV" data-bs-smooth-scroll="true" ata-bs-root-margin="0px 0px -40%">
+    <div data-bs-spy="scroll" data-bs-target="#navbar_CV" data-bs-smooth-scroll="true" data-bs-root-margin="0px 0px -40%">
       <div class="container-fluid">
         <div class="card bright">
           <div class="card-body">
@@ -46,9 +48,8 @@
       <div class="container">
         <h2 id="scroll_XP" class="title text-center my-5">Expérience</h2>
         <div class="row">
-          <div class="col-4">
-          </div>
-          <div class="col-8 col-sm-12">
+          <div class="col-md-3"></div>
+          <div class="col-md-8 col-sm-12">
         <ul class="texte display-flex gap-3">
           <div class="hstack gap-4">
             <p class="m-0" style="margin-right: 2px!important">2016</p>
@@ -58,7 +59,7 @@
           <div class="hstack gap-4">
             <p class="m-0 " style="margin-right: 1px!important">2018</p>
             <div class="vr vrHeight"></div>
-            <li>Auto entrepreneur : Pose Robot PX</li>
+            <li>Obtention Titre pro : Développeur Logiciel</li>
           </div>
           <div class="hstack gap-4">
             <p class="m-0">2022</p>
@@ -68,7 +69,12 @@
           <div class="hstack gap-4">
             <p class="m-0">2022</p>
             <div class="vr vrHeight"></div>
-            <li>Intérim</li>
+            <li>Intérim : Manutentionnaire</li>
+          </div>
+          <div class="hstack gap-4">
+            <p class="m-0">2022</p>
+            <div class="vr vrHeight"></div>
+            <li>Intérim : Opérateur de production</li>
           </div>
           <div class="hstack gap-4">
             <p class="m-0">2022</p>
@@ -78,6 +84,68 @@
           </ul>
           </div>
           </div>
+      </div>
+      <hr class="border brownBorder border-3 my-5 opacity-75 rounded"/> <!-- pas sur de garder ça -->
+      <div class="container bright border border-3 brownBorder">
+          <h2 id="scroll_SKILLS" class="title text-center my-5">Compétences</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="smallTitle text-center card-title mb-3">développement web</h3>
+                <p>frontend : HTML,CSS,js,jQuery</p>
+                <p>framework d'interface: bootstrap,materialize</p>
+                <p>backend : PHP,MYSQL</p>
+                <p>OS : Windows, Linux</p>
+                <p>divers : XAMPP,LAMP</p>
+              </div>
+            </div>
+          </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="smallTitle text-center card-title mb-3">Informatique</h3>
+              <p>Maintenance Informatique</p>
+              <p>Réseaux sociaux</p>
+              <p>maîtrise des logiciels bureautiques</p>
+            </div>
+          </div>
+        </div>
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="smallTitle text-center card-title mb-3">Commerce</h3>
+            <p>technique de vente</p>
+            <p>Assurer un services après vente</p>
+            <p>saisie de facture/devis</p>
+            <p>Contractualiser des prestations de services</p>
+            <p>Constituer un stock de matières et fournitures</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7 my-3">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="smallTitle text-center card-title mb-3">Divers</h3>
+              <p>établir un cahier des charges</p>
+              <p>gestion de projet</p>
+              <p>Coordonner un ou plusieurs services</p>
+              <p>Assister un client lors de la prise en main d'un outil</p>
+              <p>Constituer un stock de matières et fournitures</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    </div>
+        <p class="texte card-text">
+          orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac nisl vel purus lacinia volutpat nec eget magna. Vestibulum a leo laoreet ipsum maximus egestas. Cras semper lacus at urna consequat iaculis. Etiam tincidunt, turpis elementum tincidunt finibus, risus urna egestas orci, tincidunt malesuada nulla arcu in lorem. Aliquam malesuada nec erat id rutrum. Morbi a rutrum magna. Sed sit amet gravida felis. Nam at nisl consectetur, lobortis sem sed, rutrum turpis. Integer vehicula, magna commodo ullamcorper pellentesque, lectus velit rutrum urna, non facilisis arcu metus in odio. Nulla facilisi.
+          orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac nisl vel purus lacinia volutpat nec eget magna. Vestibulum a leo laoreet ipsum maximus egestas. Cras semper lacus at urna consequat iaculis. Etiam tincidunt, turpis elementum tincidunt finibus, risus urna egestas orci, tincidunt malesuada nulla arcu in lorem. Aliquam malesuada nec erat id rutrum. Morbi a rutrum magna. Sed sit amet gravida felis. Nam at nisl consectetur, lobortis sem sed, rutrum turpis. Integer vehicula, magna commodo ullamcorper pellentesque, lectus velit rutrum urna, non facilisis arcu metus in odio. Nulla facilisi.
+          orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac nisl vel purus lacinia volutpat nec eget magna. Vestibulum a leo laoreet ipsum maximus egestas. Cras semper lacus at urna consequat iaculis. Etiam tincidunt, turpis elementum tincidunt finibus, risus urna egestas orci, tincidunt malesuada nulla arcu in lorem. Aliquam malesuada nec erat id rutrum. Morbi a rutrum magna. Sed sit amet gravida felis. Nam at nisl consectetur, lobortis sem sed, rutrum turpis. Integer vehicula, magna commodo ullamcorper pellentesque, lectus velit rutrum urna, non facilisis arcu metus in odio. Nulla facilisi.
+        </p>
       </div>
     </div>
   </body>
