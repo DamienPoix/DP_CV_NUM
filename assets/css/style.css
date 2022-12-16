@@ -2,6 +2,10 @@
 
 body{
   background-color: #27476E;
+  font-family: 'MuseoModerno', cursive;
+}
+ul{
+  display: block;
 }
 .bright{
   background-color: #27476E;
@@ -11,11 +15,22 @@ body{
   font-weight: bolder;
   color: #DF9B6D;
   font-size: 4em;
-  font-family: 'MuseoModerno', cursive;
 }
-.test{
+.texte{
   font-weight: bolder;
   color: #CCB69B;
-  font-family: 'MuseoModerno', cursive;
   font-size: 2em;
+}
+.brownBorder{
+  border-color: #56351E !important;
+}
+.lien{
+  font-weight: bolder;
+  color: #DF9B6D;
+    font-size: 1.5em;
+}
+.vrHeight{
+height: 4em;
+width: 3px;
+opacity: 100;
 }
